@@ -1,0 +1,51 @@
+{
+  "name": "@sampan/react-widget",
+  "version": "0.1.0",
+  "description": "React widget component for Sampan Club chatbot integration",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "keywords": [
+    "sampan",
+    "chatbot",
+    "widget",
+    "react",
+    "chat"
+  ],
+  "author": "Sampan Club",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sampan-club/react-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sampan-club/react-widget/issues"
+  },
+  "homepage": "https://github.com/sampan-club/react-widget#readme"
+}
