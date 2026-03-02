@@ -1,17 +1,17 @@
-# @sampan/react-widget
+# @sampanclub/react-widget
 
 A React component for integrating the Sampan Club chatbot widget into your React applications.
 
 ## Installation
 
 ```bash
-npm install @sampan/react-widget
+npm install @sampanclub/react-widget
 ```
 
 ## Quick Start
 
 ```tsx
-import { SampanWidget } from '@sampan/react-widget';
+import { SampanWidget } from '@sampanclub/react-widget';
 
 export default function App() {
   return (
